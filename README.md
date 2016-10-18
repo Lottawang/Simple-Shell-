@@ -8,6 +8,19 @@ E.g., if the input-line entered by the user is
 
   ls -F
 
+# Instruction:
+
+The pseudo-code
+
+Algorithm:
+While(1)
+begin
+  read command line from user
+  assemble command args
+  duplicate current process (fork)
+  child should exec to the new program
+  parent process waits for its child to terminate
+end
 
 # Language: 
 
